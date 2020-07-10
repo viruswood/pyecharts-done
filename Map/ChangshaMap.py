@@ -5,8 +5,7 @@ json_data = {}
 with open('./长沙市.json', 'r', encoding='utf-8') as f:
     json_data = f.read()
 # print(json_data)
-data_pair = [["中西区", 20057.34],
-             ["长沙县", 15477.48],
+data_pair = [["长沙县", 15477.48],
              ["宁乡市", 31686.1],
              ["望城区", 6992.6],
              ["开福区", 44045.49],
